@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #f3f3f3;
+}
+
+.head{
+    font-size: 550%;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -7px;
+}
+
+.shead{
+    font-size: 550%;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: -7px;
+    margin-top: -70px;
+}
+
+@media  only screen and (max-width:720px) {
+    .head,.shead{
+        font-size: 400%;
+    }
+    .shead{
+        margin-top: -60px;
+    }
+}
+
+.name{
+    text-align: center;
+    margin-bottom: -10px;
+    letter-spacing: 6px;
+}
